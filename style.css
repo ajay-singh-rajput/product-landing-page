@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Oxanium', cursive;
+    text-shadow: 0 0 3px rgb(34, 47, 42);
+
+
+}
+.main-div{
+    width: 100%;
+    height: 100%;
+    background: url(https://c4.wallpaperflare.com/wallpaper/408/42/548/hatake-kakashi-naruto-sharingan-wallpaper-preview.jpg);
+    /* background: url(https://wallpaperboat.com/wp-content/uploads/2020/04/kakashi-hatake-wallpaper-1920x1080-6.jpg); */
+    background-size: cover;
+    background-position: start;
+    display: flex;
+
+
+}
+.side-div{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(34, 47, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    /* border-right: 1px solid turquoise; */
+}
+.sd-ul{
+    /* transform: rotate(-90deg); */
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    color: rgb(147, 147, 147);
+}
+.sd-div1{
+    font-size: 20px;
+    color: aliceblue;
+}
+.only{
+    color: red;
+}
+.home{
+    color: aliceblue;
+}
+.div-right{
+    width: 80%;
+    height: 100%;
+}
+.r-up{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: end;
+}
+.fitter{
+    width: 15%;
+}
+
+.upd-a{
+    /* width: 15%; */
+    padding: 0px 30px 30px 30px;
+    background-color: rgb(34, 47, 42);
+    height: 25%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.up-d1{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+    font-weight: 100;
+}
+.r-down{
+width: 100%;
+height: 15%;
+background-color: rgb(34, 47, 42);
+}
+.upd-a > p{
+    color: rgb(118, 124, 122);
+}
+.upd-a > h2{
+    font-size: 30px;
+}
+
+.btn-div > button{
+    background-color: aliceblue;
+    border: none;
+    padding: 30px;
+    font-size: 15px;
+}
+.main-head{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-size: 60px;
+    color: aliceblue;
+    text-shadow: 0 0 3px rgb(34, 47, 42);
+}
+
